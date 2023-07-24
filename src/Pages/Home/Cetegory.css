@@ -1,0 +1,27 @@
+.tabs {  
+    display: grid; 
+    
+  }
+  .tab {  
+    /* justify-content: center;
+    align-items: center; */
+    /* width: 100%; */
+    /* background: lightsteelblue;  */
+     /* padding: 3em ;   */
+     font-size: 20px;
+    /* border: none; */ 
+  }
+  .tab:not(:last-child) {
+    border-right: 1px solid steelblue;  
+  }
+  .tab.active {
+    color: steelblue;
+   
+  }
+  .panel {
+    display: none;
+    /* padding: 10px; */
+  }
+  .panel.active {
+    display: block;
+  }
